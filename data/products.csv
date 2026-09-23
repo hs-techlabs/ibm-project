@@ -1,0 +1,85 @@
+Product_ID,Product_Name,Category,Sub_Category,Brand,Cost,List_Price
+PROD-0001,Nova Smartphone Classic,Electronics,Mobiles,Nova,16592.01,26199.0
+PROD-0002,Bolt Wireless Earbuds Pro,Electronics,Audio,Bolt,14197.34,19599.0
+PROD-0003,SoundWave Bluetooth Speaker Classic,Electronics,Laptops,SoundWave,10325.6,17349.0
+PROD-0004,ZenTech Laptop Plus,Electronics,Accessories,ZenTech,27493.34,39599.0
+PROD-0005,Nova Power Bank Pro,Electronics,Mobiles,Nova,25878.28,39099.0
+PROD-0006,Bolt Smartwatch Classic,Electronics,Audio,Bolt,19192.58,28399.0
+PROD-0007,SoundWave USB Hub Pro,Electronics,Laptops,SoundWave,17437.15,28499.0
+PROD-0008,ZenTech Mechanical Keyboard Max,Electronics,Accessories,ZenTech,27438.63,37299.0
+PROD-0009,Nova Webcam Max,Electronics,Mobiles,Nova,1168.62,1599.0
+PROD-0010,Bolt Phone Case Pro,Electronics,Audio,Bolt,17071.3,28699.0
+PROD-0011,SoundWave Tablet Classic,Electronics,Laptops,SoundWave,24137.63,40449.0
+PROD-0012,ZenTech Noise Cancelling Headphones Plus,Electronics,Accessories,ZenTech,19456.55,27049.0
+PROD-0013,Nova Wireless Mouse Classic,Electronics,Mobiles,Nova,14987.64,21149.0
+PROD-0014,Bolt Fast Charger Pro,Electronics,Audio,Bolt,11529.74,16899.0
+PROD-0015,UrbanFit Cotton Shirt Max,Fashion,Men's Clothing,UrbanFit,1179.02,3299.0
+PROD-0016,Saanvi Casual Kurta Plus,Fashion,Women's Clothing,Saanvi,294.53,749.0
+PROD-0017,ThreadCraft Denim Jeans Max,Fashion,Footwear,ThreadCraft,160.93,449.0
+PROD-0018,Stride Running Shoes Pro,Fashion,Accessories,Stride,914.89,2599.0
+PROD-0019,UrbanFit Handbag Plus,Fashion,Men's Clothing,UrbanFit,1315.82,3599.0
+PROD-0020,Saanvi Printed Dress Classic,Fashion,Women's Clothing,Saanvi,1431.95,1999.0
+PROD-0021,ThreadCraft Leather Wallet X,Fashion,Footwear,ThreadCraft,1824.74,4899.0
+PROD-0022,Stride Polo T-Shirt X,Fashion,Accessories,Stride,592.41,1599.0
+PROD-0023,UrbanFit Saree Plus,Fashion,Men's Clothing,UrbanFit,1227.54,2999.0
+PROD-0024,Saanvi Sneakers Plus,Fashion,Women's Clothing,Saanvi,428.15,849.0
+PROD-0025,ThreadCraft Jacket Plus,Fashion,Footwear,ThreadCraft,1307.7,2599.0
+PROD-0026,Stride Sunglasses Pro,Fashion,Accessories,Stride,908.04,1849.0
+PROD-0027,UrbanFit Backpack Classic,Fashion,Men's Clothing,UrbanFit,1983.45,4299.0
+PROD-0028,Saanvi Watch Strap Max,Fashion,Women's Clothing,Saanvi,1124.79,2349.0
+PROD-0029,HomePro Air Fryer Pro,Home & Furniture,Kitchen Appliances,HomePro,12326.27,18199.0
+PROD-0030,CasaNest Office Chair X,Home & Furniture,Furniture,CasaNest,10280.76,18449.0
+PROD-0031,Aarambh Wall Clock Pro,Home & Furniture,Decor,Aarambh,7430.36,12699.0
+PROD-0032,Livo Coffee Maker X,Home & Furniture,Home Essentials,Livo,4982.11,9149.0
+PROD-0033,HomePro Study Table Max,Home & Furniture,Kitchen Appliances,HomePro,9886.16,15049.0
+PROD-0034,CasaNest Bedsheet Set Pro,Home & Furniture,Furniture,CasaNest,3791.92,5299.0
+PROD-0035,Aarambh Table Lamp Max,Home & Furniture,Decor,Aarambh,4462.09,8249.0
+PROD-0036,Livo Mixer Grinder X,Home & Furniture,Home Essentials,Livo,2221.77,3499.0
+PROD-0037,HomePro Storage Rack Max,Home & Furniture,Kitchen Appliances,HomePro,3877.35,6999.0
+PROD-0038,CasaNest Cushion Cover Plus,Home & Furniture,Furniture,CasaNest,8515.1,14449.0
+PROD-0039,Aarambh Water Bottle Max,Home & Furniture,Decor,Aarambh,10158.38,15049.0
+PROD-0040,Livo Cookware Set Classic,Home & Furniture,Home Essentials,Livo,11306.23,17699.0
+PROD-0041,HomePro Floor Lamp Max,Home & Furniture,Kitchen Appliances,HomePro,6801.39,12549.0
+PROD-0042,CasaNest Side Table X,Home & Furniture,Furniture,CasaNest,10986.65,16349.0
+PROD-0043,GlowNest Face Serum X,Beauty & Personal Care,Skincare,GlowNest,594.31,1449.0
+PROD-0044,Mira Sunscreen Plus,Beauty & Personal Care,Haircare,Mira,915.52,2849.0
+PROD-0045,PureRoot Shampoo X,Beauty & Personal Care,Makeup,PureRoot,225.32,549.0
+PROD-0046,Natura Lipstick Pro,Beauty & Personal Care,Wellness,Natura,50.2,199.0
+PROD-0047,GlowNest Hair Dryer Pro,Beauty & Personal Care,Skincare,GlowNest,512.17,1349.0
+PROD-0048,Mira Body Lotion Plus,Beauty & Personal Care,Haircare,Mira,1953.0,2849.0
+PROD-0049,PureRoot Beard Trimmer Pro,Beauty & Personal Care,Makeup,PureRoot,604.39,2049.0
+PROD-0050,Natura Makeup Kit Max,Beauty & Personal Care,Wellness,Natura,155.73,599.0
+PROD-0051,GlowNest Face Wash X,Beauty & Personal Care,Skincare,GlowNest,234.79,749.0
+PROD-0052,Mira Essential Oil Classic,Beauty & Personal Care,Haircare,Mira,699.25,2349.0
+PROD-0053,PureRoot Conditioner Pro,Beauty & Personal Care,Makeup,PureRoot,169.19,649.0
+PROD-0054,Natura Nail Paint Set Classic,Beauty & Personal Care,Wellness,Natura,95.49,349.0
+PROD-0055,GlowNest Electric Toothbrush Pro,Beauty & Personal Care,Skincare,GlowNest,656.3,2399.0
+PROD-0056,Mira Vitamin C Cream Plus,Beauty & Personal Care,Haircare,Mira,275.91,799.0
+PROD-0057,ActiveOne Yoga Mat Pro,Sports & Outdoors,Fitness Equipment,ActiveOne,1924.19,4049.0
+PROD-0058,TrailPro Dumbbell Set Classic,Sports & Outdoors,Sports Apparel,TrailPro,703.16,1199.0
+PROD-0059,FlexFit Cricket Bat X,Sports & Outdoors,Camping Gear,FlexFit,3077.44,6499.0
+PROD-0060,Kinetic Running T-Shirt X,Sports & Outdoors,Yoga,Kinetic,3401.86,5699.0
+PROD-0061,ActiveOne Trekking Backpack X,Sports & Outdoors,Fitness Equipment,ActiveOne,4134.98,8649.0
+PROD-0062,TrailPro Resistance Bands Max,Sports & Outdoors,Sports Apparel,TrailPro,9055.42,12949.0
+PROD-0063,FlexFit Camping Tent Max,Sports & Outdoors,Camping Gear,FlexFit,409.66,899.0
+PROD-0064,Kinetic Football Pro,Sports & Outdoors,Yoga,Kinetic,4130.28,7199.0
+PROD-0065,ActiveOne Cycling Helmet Max,Sports & Outdoors,Fitness Equipment,ActiveOne,2749.22,5649.0
+PROD-0066,TrailPro Protein Shaker X,Sports & Outdoors,Sports Apparel,TrailPro,5203.54,8699.0
+PROD-0067,FlexFit Skipping Rope Max,Sports & Outdoors,Camping Gear,FlexFit,5266.45,11449.0
+PROD-0068,Kinetic Badminton Racket Plus,Sports & Outdoors,Yoga,Kinetic,7332.83,12649.0
+PROD-0069,ActiveOne Sports Shoes Classic,Sports & Outdoors,Fitness Equipment,ActiveOne,1832.6,3099.0
+PROD-0070,TrailPro Foam Roller Classic,Sports & Outdoors,Sports Apparel,TrailPro,2119.4,4249.0
+PROD-0071,PaperTrail Indian Fiction Novel Plus,Books & Stationery,Fiction,PaperTrail,606.04,1249.0
+PROD-0072,ReadWell Exam Preparation Guide Plus,Books & Stationery,Academic,ReadWell,1357.99,2099.0
+PROD-0073,NoteCraft Notebook Set Max,Books & Stationery,Office Supplies,NoteCraft,216.33,449.0
+PROD-0074,InkHouse Gel Pen Pack X,Books & Stationery,Art Supplies,InkHouse,204.24,349.0
+PROD-0075,PaperTrail Desk Organiser X,Books & Stationery,Fiction,PaperTrail,1091.44,1899.0
+PROD-0076,ReadWell Watercolour Set Classic,Books & Stationery,Academic,ReadWell,1128.04,1649.0
+PROD-0077,NoteCraft Business Book Pro,Books & Stationery,Office Supplies,NoteCraft,1229.9,2199.0
+PROD-0078,InkHouse Sketchbook Classic,Books & Stationery,Art Supplies,InkHouse,378.44,599.0
+PROD-0079,PaperTrail Planner X,Books & Stationery,Fiction,PaperTrail,703.53,1249.0
+PROD-0080,ReadWell Marker Set Max,Books & Stationery,Academic,ReadWell,323.81,649.0
+PROD-0081,NoteCraft Calculator Max,Books & Stationery,Office Supplies,NoteCraft,908.07,1399.0
+PROD-0082,InkHouse Sticky Notes Max,Books & Stationery,Art Supplies,InkHouse,1108.94,2299.0
+PROD-0083,PaperTrail Children's Storybook Plus,Books & Stationery,Fiction,PaperTrail,345.44,699.0
+PROD-0084,ReadWell File Folder Set X,Books & Stationery,Academic,ReadWell,1160.99,2249.0

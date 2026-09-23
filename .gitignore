@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (uncomment if you don't want to push raw data)
+# data/*.csv
+
+# Power BI
+*.pbix.tmp
+
+# Outputs (uncomment if generated outputs should not be tracked)
+# outputs/*.csv
+
+# Logs
+*.log

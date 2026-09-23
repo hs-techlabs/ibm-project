@@ -1,0 +1,26 @@
+Region_ID,Country,State,City,Region
+REG-001,India,Delhi,Delhi,North
+REG-002,India,Haryana,Gurugram,North
+REG-003,India,Rajasthan,Jaipur,North
+REG-004,India,Uttar Pradesh,Lucknow,North
+REG-005,India,Chandigarh,Chandigarh,North
+REG-006,India,Jammu and Kashmir,Srinagar,North
+REG-007,India,Maharashtra,Mumbai,West
+REG-008,India,Maharashtra,Pune,West
+REG-009,India,Gujarat,Ahmedabad,West
+REG-010,India,Gujarat,Surat,West
+REG-011,India,Madhya Pradesh,Indore,West
+REG-012,India,Goa,Goa,West
+REG-013,India,Karnataka,Bengaluru,South
+REG-014,India,Tamil Nadu,Chennai,South
+REG-015,India,Telangana,Hyderabad,South
+REG-016,India,Kerala,Kochi,South
+REG-017,India,Tamil Nadu,Coimbatore,South
+REG-018,India,Andhra Pradesh,Visakhapatnam,South
+REG-019,India,West Bengal,Kolkata,East
+REG-020,India,Odisha,Bhubaneswar,East
+REG-021,India,Bihar,Patna,East
+REG-022,India,Assam,Guwahati,East
+REG-023,India,Jharkhand,Ranchi,East
+REG-024,India,West Bengal,Siliguri,East
+REG-025,India,Chhattisgarh,Raipur,Central
