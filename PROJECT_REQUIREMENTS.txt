@@ -1,0 +1,101 @@
+================================================================================
+SOFTWARE REQUIREMENTS SPECIFICATION (SRS) & PROJECT REQUIREMENTS
+Project: Vanguard — Retail Revenue & Customer Decision Intelligence Platform
+IBM Project Submission Track: Data Analytics & Applied AI
+Author: Himanshu Sharma (HS TechLabs)
+Repository: https://github.com/hs-techlabs/ibm-project.git
+================================================================================
+
+1. PROJECT OVERVIEW & PURPOSE
+-----------------------------
+Vanguard is an enterprise-grade Decision Intelligence Platform built upon 533,878
+verified transactions across 38 global markets from the UCI Machine Learning
+Repository. It bridges the gap between raw relational transactional records and
+executive boardroom decisions by operationalizing the complete commercial
+analytics continuum:
+DATA -> INFORMATION -> INSIGHTS -> DECISION -> ACTION
+
+2. FUNCTIONAL REQUIREMENTS (FR)
+-------------------------------
+FR-01: Data Ingestion & Sanitization Engine
+  - Ingest 533k+ transactions from the UCI Machine Learning Repository.
+  - Automatically filter non-retail administrative codes (POST, BANK CHARGES, etc.).
+  - Accurately isolate returns (InvoiceNo starting with 'C' or negative Quantity).
+  - Reconcile guest accounts (25.3% of transactions) without corrupting customer RFM cohorts.
+  - Implement fallback self-healing data pipeline to download/clean if local cache is missing.
+
+FR-02: Executive Decision Cockpit
+  - Display 6 C-suite executive KPIs: Net Revenue ($8.87M), Gross Profit ($3.93M),
+    Total Orders (22.2k), Average Order Value ($399), Gross Margin (44.3%), and Return Rate (2.45%).
+  - Provide period-over-period delta badges and dynamic executive alert banners.
+
+FR-03: Revenue & Sales Velocity Module
+  - Render dual-axis monthly revenue versus order volume trends.
+  - Render intraday checkout velocity heatmaps (Day of Week vs Hour of Day).
+
+FR-04: Catalog & Category Intelligence
+  - Map SKU descriptions into 8 retail departments using keyword taxonomy.
+  - Compute cumulative Pareto 80/20 SKU distribution curves.
+  - Identify top gross margin drivers and return-vulnerable product lines.
+
+FR-05: Algorithmic RFM Customer Segmentation
+  - Score customers across Recency (days), Frequency (orders), and Monetary (spend) quintiles.
+  - Classify accounts into actionable cohorts: Champions, Loyalists, Promising New,
+    At-Risk, and Hibernating.
+  - Provide cohort spend distributions and downloadable CSV segments.
+
+FR-06: Corporate Risk & Opportunity Engine
+  - Quantify domestic market over-reliance (UK accounts for 82.4% of topline revenue).
+  - Quantify high-value customer churn exposure ($1.15M baseline replenishment at risk).
+  - Sizing cross-border wholesale expansion ($485 international AOV vs $228 UK domestic).
+
+FR-07: Predictive Demand & Price Elasticity Simulator
+  - Execute Holt-Winters statistical time-series forecasting with 95% confidence intervals.
+  - Provide interactive sliders for price adjustment (-20% to +30%) and COGS inflation (-10% to +20%).
+  - Simulate revenue, gross profit, and unit volume outcomes under inelastic, unit elastic,
+    and elastic curves.
+
+FR-08: Consolidated Single-File Executable Delivery
+  - Entire application runs via a self-contained project.py script adhering to IBM submission guidelines.
+
+3. NON-FUNCTIONAL REQUIREMENTS (NFR)
+-----------------------------------
+NFR-01: Performance & Startup Latency
+  - Sub-second deserialization and dashboard boot (< 2 seconds) via Apache PyArrow Snappy Parquet caching.
+NFR-02: Cross-Platform Portability
+  - Pure Python implementation compatible with macOS, Linux, and Windows 10/11.
+NFR-03: Package Size Compliance
+  - Total submission archive strictly under 10.0 MB for portal upload constraints.
+NFR-04: Resilience & Self-Healing
+  - Automatic download and cleaning pipeline if local data files are not present.
+NFR-05: Documentation & Attribution Integrity
+  - Preservation of open-source MIT License and attribution to foundational architecture.
+
+4. SYSTEM ENVIRONMENT & SOFTWARE DEPENDENCIES
+---------------------------------------------
+Operating System: Cross-platform (macOS, Windows 10/11, Linux)
+Base Language: Python 3.10 or higher
+RAM: Minimum 4 GB (8 GB recommended)
+Disk Space: 500 MB free disk space
+
+Software Packages (requirements.txt):
+  - streamlit>=1.30.0   (Executive Web Application Interface)
+  - plotly>=5.18.0      (Interactive Visualizations, Heatmaps, Pareto Charts)
+  - pandas>=2.0.0       (Vectorized Data Processing & Aggregation)
+  - numpy>=1.24.0       (Numerical Computations & Array Operations)
+  - scikit-learn>=1.3.0 (Statistical Modeling & Feature Transformers)
+  - scipy>=1.10.0       (Statistical Computations & Holt-Winters Forecasting)
+  - pyarrow>=14.0.0     (High-Speed Snappy Parquet Cache Ingestion)
+  - openpyxl>=3.1.0     (Dataset Excel Ingestion Support)
+  - python-docx>=1.0.0  (Automated Project Report Generation)
+
+5. QUICK VERIFICATION & EXECUTION COMMANDS
+------------------------------------------
+git clone https://github.com/hs-techlabs/ibm-project.git
+cd ibm-project
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+streamlit run project.py
+Access Dashboard: http://localhost:8501
+================================================================================

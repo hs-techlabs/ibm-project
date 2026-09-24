@@ -12,7 +12,7 @@ def build_submission_zips():
             if os.path.exists(p):
                 z.write(p, f)
                 
-        for f in ['Project_Report.pdf', 'Project_Report.docx']:
+        for f in ['Project_Report.pdf', 'Project_Report.docx', 'Project_Requirements.pdf', 'Project_Requirements.docx']:
             p = os.path.join(base_dir, 'reports', f)
             if os.path.exists(p):
                 z.write(p, os.path.join('reports', f))
@@ -46,7 +46,7 @@ def build_submission_zips():
             if os.path.exists(p):
                 z.write(p, f)
                 
-        for f in ['Project_Report.pdf', 'Project_Report.docx']:
+        for f in ['Project_Report.pdf', 'Project_Report.docx', 'Project_Requirements.pdf', 'Project_Requirements.docx']:
             p = os.path.join(base_dir, 'reports', f)
             if os.path.exists(p):
                 z.write(p, os.path.join('reports', f))
